@@ -15,6 +15,16 @@
     }
 }
 
+
+@media(max-width: 736px){
+    #hero {
+        .hero-box {
+            padding: 2rem;
+            margin-top: 20%;
+            max-width: 500px;
+        }
+    }
+}
 @media(max-width: 615px){
     #hero {
         .hero-box {

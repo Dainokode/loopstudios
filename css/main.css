@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  line-height: 1.4;
+  line-height: 1;
   background-color: #fff;
   color: #333;
   -webkit-animation: opening 1s ease-in-out;
@@ -225,6 +225,14 @@ a {
   line-height: 1;
 }
 
+@media (max-width: 736px) {
+  #hero .hero-box {
+    padding: 2rem;
+    margin-top: 20%;
+    max-width: 500px;
+  }
+}
+
 @media (max-width: 615px) {
   #hero .hero-box {
     padding: 2rem;
@@ -242,6 +250,9 @@ a {
   position: relative;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 4rem;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
 }
 
 #about .about-img {
@@ -289,10 +300,13 @@ a {
     text-align: center;
     position: relative;
     justify-self: flex-start;
-    padding: 1rem;
-    bottom: 5%;
-    left: 0;
-    max-width: 300px;
+    padding: 0.5rem;
+    bottom: 0;
+    right: 0;
+  }
+  #about .about-text p {
+    line-height: 1.4;
+    padding: 0 2rem;
   }
 }
 
@@ -318,7 +332,7 @@ a {
       -ms-flex-direction: row;
           flex-direction: row;
   display: flex;
-  padding: 5rem 0;
+  padding: 0 0 5rem 0 !important;
 }
 
 #projects .projects-header h2 {
