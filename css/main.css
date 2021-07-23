@@ -310,6 +310,22 @@ a {
   }
 }
 
+@media (max-width: 570px) {
+  #about .about-text {
+    text-align: center;
+    position: relative;
+    justify-self: flex-start;
+    padding: 1rem 0;
+    bottom: 0;
+    right: 0;
+    height: 20vh;
+  }
+  #about .about-text p {
+    line-height: 1.4;
+    padding: 0 2rem;
+  }
+}
+
 #projects {
   min-height: 100vh;
   width: 80%;
