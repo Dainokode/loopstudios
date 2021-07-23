@@ -297,6 +297,9 @@ a {
 }
 
 @media (max-width: 815px) {
+  #about .about-img {
+    padding-top: 2rem;
+  }
   #about .about-text {
     text-align: center;
     position: relative;
