@@ -97,7 +97,6 @@
         .projects-header {
             @include flex(space-between, row);
             display: flex;
-            padding: 5rem 0;
     
             h2 {
                 text-transform: uppercase;

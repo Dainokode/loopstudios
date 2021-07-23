@@ -319,12 +319,12 @@ a {
     text-align: center;
     position: relative;
     justify-self: flex-start;
-    padding: 4rem 0;
+    padding: 5rem 0 0 0;
     bottom: 0;
     right: 0;
   }
   #about .about-text p {
-    line-height: 1.4;
+    line-height: 1.6;
     padding: 0 1rem;
   }
 }
@@ -448,7 +448,6 @@ a {
         -ms-flex-direction: row;
             flex-direction: row;
     display: flex;
-    padding: 5rem 0;
   }
   #projects .projects-header h2 {
     text-transform: uppercase;
