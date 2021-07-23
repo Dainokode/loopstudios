@@ -250,7 +250,6 @@ a {
   position: relative;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 4rem;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
 }
@@ -277,7 +276,7 @@ a {
   z-index: 2;
   background: #fff;
   max-width: 720px;
-  padding: 5rem 10rem 2rem 15rem;
+  padding: 5rem 10rem 5rem 15rem;
   position: absolute;
   bottom: 10%;
   right: -8%;
@@ -289,10 +288,12 @@ a {
 #about .about-text h2 {
   text-transform: uppercase;
   padding-bottom: 2rem;
+  font-size: clamp(30px, 3.5vw, 70px);
 }
 
 #about .about-text p {
   line-height: 1.1;
+  font-size: clamp(16px, 5vw, 22px);
 }
 
 @media (max-width: 815px) {
@@ -315,14 +316,13 @@ a {
     text-align: center;
     position: relative;
     justify-self: flex-start;
-    padding: 1rem 0;
+    padding: 4rem 0;
     bottom: 0;
     right: 0;
-    height: 10vh;
   }
   #about .about-text p {
     line-height: 1.4;
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 }
 
@@ -348,7 +348,7 @@ a {
       -ms-flex-direction: row;
           flex-direction: row;
   display: flex;
-  padding: 0 0 5rem 0 !important;
+  padding: 3rem 0 5rem 0 !important;
 }
 
 #projects .projects-header h2 {

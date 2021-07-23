@@ -4,7 +4,6 @@
     display: flex;
     position: relative;
     flex-wrap: wrap;
-    padding-top: 4rem;
     align-content: stretch;
 
     .about-img {
@@ -23,7 +22,7 @@
         z-index: 2;
         background: #fff;
         max-width: 720px;
-        padding: 5rem 10rem 2rem 15rem;
+        padding: 5rem 10rem 5rem 15rem;
         position: absolute;
         bottom: 10%;
         right: -8%;
@@ -32,10 +31,12 @@
         h2 {
             text-transform: uppercase;
             padding-bottom: 2rem;
+            font-size: $header1;
         }
 
         p {
             line-height: 1.1;
+            font-size: clamp(16px, 5vw, 22px);
         }
     }
 }
@@ -65,14 +66,13 @@
             text-align: center;
             position: relative;
             justify-self: flex-start;
-            padding: 1rem 0;
+            padding: 4rem 0;
             bottom: 0;
             right: 0;
-            height: 10vh;
 
             p {
                 line-height: 1.4;
-                padding: 0 2rem;
+                padding: 0 1rem;
             }
         }
     }
