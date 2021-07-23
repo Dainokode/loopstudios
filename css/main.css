@@ -228,7 +228,7 @@ a {
 @media (max-width: 736px) {
   #hero .hero-box {
     padding: 2rem;
-    margin-top: 10%;
+    margin-top: 40%;
     max-width: 500px;
   }
 }
@@ -237,6 +237,14 @@ a {
   #hero .hero-box {
     padding: 2rem;
     margin-top: 50%;
+  }
+}
+
+@media (max-height: 320px) {
+  #hero .hero-box {
+    padding: 2rem;
+    margin-top: 10%;
+    max-width: 500px;
   }
 }
 
