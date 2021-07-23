@@ -1,0 +1,25 @@
+#hero {
+    @include container;
+    
+    .hero-box {
+        border: 2px solid #fff;
+        padding: 4rem 6.5rem 4rem 4rem;
+        margin: 15% 0 0;
+        max-width: 720px;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: clamp(30px, 5vw, 70px);
+            line-height: 1;
+        }
+    }
+}
+
+@media(max-width: 615px){
+    #hero {
+        .hero-box {
+            padding: 2rem;
+            margin-top: 50%;
+        }
+    }
+}

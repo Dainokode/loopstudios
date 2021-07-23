@@ -1,0 +1,52 @@
+#about {
+    min-height: 100vh;
+    @include container;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+
+    .about-img {
+        align-self: center;
+        justify-self: center;
+        flex: 2 1 40rem;
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .about-text {
+        z-index: 2;
+        background: #fff;
+        max-width: 720px;
+        padding: 5rem 10rem 5rem 15rem;
+        position: absolute;
+        bottom: 10%;
+        right: -8%;
+        flex: 1 1 40rem;
+
+        h2 {
+            text-transform: uppercase;
+            padding-bottom: 2rem;
+        }
+
+        p {
+            line-height: 1.1;
+        }
+    }
+}
+
+@media(max-width: 815px){
+    #about {
+        .about-text {
+            text-align: center;
+            position: relative;
+            justify-self: flex-start;
+            padding: 1rem;
+            top: 0;
+            left: 0;
+        }
+    }
+}
